@@ -1,0 +1,21 @@
+<div class="col-sm-10 col-10 nav">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">services</a>
+					<ul class="subnav">
+						<li><a href="#">spa</a></li>
+						<li><a href="#">hair styling</a></li>
+						<li><a href="#">bridal makeup</a></li>
+						<li><a href="#">party makeup</a></li>
+						<li><a href="#">waxing</a></li>
+						<li><a href="#">padicure manicure</a></li>
+						<li><a href="#">massage</a></li>
+						<li><a href="#">babies haircut</a></li>
+					</ul>
+				</li>
+					<li><a href="#">Products</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>

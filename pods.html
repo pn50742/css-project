@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+   <style>
+   .parent{
+   	overflow:hidden;
+   	height: 400px;
+   }
+	   .bg-one{
+		  background-image:url("site_images/body.jpg");
+		 
+	   }
+	   .bg-two{
+		  background-image:url("site_images/hair.jpg");
+		 
+	   }
+	   .bg-three{
+		  background-image:url("site_images/facial.jpg");
+		 
+	   }
+	   .bg-four{
+		  background-image:url("site_images/makeup.jpg");
+		 
+	   }
+	  .child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+      background-size:cover;
+		   background-position: center top;
+		   background-repeat: no-repeat;
+}
+.parent a {
+    visibility: visible;
+    font-family: playfair display !important;
+    animation: fadeInBottom 1.5s ease;
+    color: #ffffff !important;
+    text-align: center;
+    margin: auto;
+    font-size:30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-weight: bold;
+    
+}
+
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.parent:hover .child:before, .parent:focus .child:before {
+    display: none;
+}
+
+.parent:hover a, .parent:focus a {
+    visibility: hidden;
+}
+
+.child:before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+	   /*https://css-tricks.com/zooming-background-images/*/
+	  </style>
+  </head>
+  <body>
+    <script src="bootstrpjs.js"></script>
+    <script src="bootstrap.min.js"></script>
+	 <div class="container-fluid">
+	  <dic class="row">
+		 <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 parent p-0" style="background-color:#252323; color:#fff;">
+
+			 <div class="child bg-one">
+			
+			 <a href="#">body</a>
+			 </div>
+		  
+		  </div>
+		  	 <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 parent p-0" style="background-color:#252323; color:#fff;">
+
+			 <div class="child bg-two">
+			
+			 <a href="#">hair</a>
+			 </div>
+		  
+		  </div>
+		  	 <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 parent p-0" style="background-color:#252323; color:#fff;">
+
+			 <div class="child bg-three">
+			
+			 <a href="#">facial</a>
+			 </div>
+		  
+		  </div>
+		  	 <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 parent p-0" style="background-color:#252323; color:#fff;">
+
+			 <div class="child bg-four">
+			
+			 <a href="#">makeup</a>
+			 </div>
+		  
+		  </div>
+		
+		 </div>
+	  </div>
+
+	  <!--services section-->
+
+
+<div class="container-fluid p-5 service_section">
+
+<h2 class="text-center h2_service text-light"> Our Services</h2>
+<div class="card-deck h2_service mb-4">
+  <div class="card border-0 bg-transparent">
+  	
+    <img src="site_images/service_1.jpg" class=" service mx-0 img-thumbnail" alt="service_1">
+   
+    
+      <h5 class="card-title text-center heading-service mx-auto my-0">facial treatment</h5>
+  
+
+  </div>
+  <div class="card  border-0 bg-transparent">
+   <img src="site_images/service_2.jpg" class=" service mx-0 img-thumbnail" alt="service_1">
+      <h5 class="card-title text-center heading-service">hair styling</h5>
+  
+
+  </div>
+  <div class="card border-0 bg-transparent">
+<img src="site_images/service_3.jpg" class=" service mx-0 img-thumbnail" alt="service_1">
+      <h5 class="card-title text-center heading-service">Waxing</h5>
+  </div>
+</div>
+
+
+
+<div class="card-deck ">
+  <div class="card border-0 bg-transparent">
+    <img src="site_images/service_4.jpg" class=" service mx-0 img-thumbnail" alt="service_1">
+
+      <h5 class="card-title text-center heading-service">Bridel Makeup</h5>
+
+
+  </div>
+  <div class="card  border-0 bg-transparent">
+   <img src="site_images/service_5.jpg" class="  service mx-0 img-thumbnail" alt="service_1">
+
+      <h5 class="card-title text-center heading-service">Men haircut</h5>
+
+
+  </div>
+  <div class="card border-0 bg-transparent">
+<img src="site_images/service_6.jpg" class="  service mx-0 img-thumbnail" alt="service_1">
+
+      <h5 class="card-title text-center heading-service">kids haircut</h5>
+
+  </div>
+</div>
+</div>
+	  
+</body>
+</html>
